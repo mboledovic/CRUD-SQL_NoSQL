@@ -13,14 +13,15 @@ Goal of project is to select proper database to store data from process controll
 1. Open file Data_generator.py in ide or text editor supporting .py files
 
 2. Insert for generating:
-	-Name of source
-	-Fail_probability
-	-Number of generated data
-	-Starting date for data generation
-	-Period of data generation
-	-Number for CRUD tests
+   
+- Name of source
+- Fail_probability
+- Number of generated data
+- Starting date for data generation
+- Period of data generation
+- Number for CRUD tests
 
-  You can change the number of threads which will generate data,the number of data generated in each file and range for random float value
+  You can change the number of threads which will generate data, the number of data generated in each file and range for random float value
 
 3. Generate data
 
@@ -62,6 +63,7 @@ docker-compose down
 
 5. Create copy of "Volumes" and move it to new directory. (for replication of results)
 
+
 ## How to test database
 
 1. Open file "testing_by_pk" and run the program
@@ -89,6 +91,7 @@ docker-compose up -d
 
 11. Repeat 4. step
 
+
 ## Testing environment
 
 The project was tested in Windows 10 OS.
@@ -98,3 +101,10 @@ Parameters of tested machine:
 - 8GB RAM DDR4 2400 MHz
 - 6 core CPU (base clock: 2,2GHz)
 - SSD NVMe PCIe Gen3
+
+
+## Software used in project
+
+Chosen databases were running as Docker containers. Link for [Docker engine](https://docs.docker.com/engine/install/ubuntu/) to install on Linux OS.(You will need Docker engine and Docker compose)
+
+For importing data files into databases you will need code editor or IDE to run .py programs. Link for [VS Code](https://code.visualstudio.com/download).  
