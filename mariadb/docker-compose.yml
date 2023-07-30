@@ -1,0 +1,12 @@
+services:
+  mariadb:
+    image: mariadb:latest
+    container_name: mariadb
+    environment:
+    - MYSQL_ROOT_PASSWORD=password
+    - MYSQL_USER=test
+    - MYSQL_PASSWORD=password
+    ports:
+    - 3307:3306
+    volumes:
+      - ./volumes/mariadb:/var/lib/mysql
