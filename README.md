@@ -14,12 +14,12 @@ Goal of project is to select proper database to store data from process controll
 
 2. Insert for generating:
    
-- Name of source
-- Fail_probability
-- Number of generated data
-- Starting date for data generation
-- Period of data generation
-- Number for CRUD tests
+   - Name of source
+   - Fail_probability
+   - Number of generated data
+   - Starting date for data generation
+   - Period of data generation
+   - Number for CRUD tests
 
   You can change the number of threads which will generate data, the number of data generated in each file and range for random float value
 
@@ -98,9 +98,9 @@ The project was tested in Windows 10 OS.
 
 Parameters of tested machine:
 
-- 8GB RAM DDR4 2400 MHz
-- 6 core CPU (base clock: 2,2GHz)
-- SSD NVMe PCIe Gen3
+   - 8GB RAM DDR4 2400 MHz
+   - 6 core CPU (base clock: 2,2GHz)
+   - SSD NVMe PCIe Gen3
 
 
 ## Software used in project
