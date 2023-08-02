@@ -1,6 +1,6 @@
 # CRUD-SQL_NoSQL
 
-Time comparison of CRUD queries (for primary key and for value) for chosen databases running locally in docker containers done by Python programs.
+Time comparison of CRUD queries (primary key & value) for chosen databases running locally in docker containers done by Python programs.
 
 
 ## About Project
