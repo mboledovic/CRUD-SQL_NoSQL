@@ -94,8 +94,6 @@ docker-compose up -d
 
 ## Testing environment
 
-The project was tested in Windows 10 OS.
-
 Parameters of tested machine:
 
    - 8GB RAM DDR4 2400 MHz
