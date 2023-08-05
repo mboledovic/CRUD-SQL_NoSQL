@@ -103,6 +103,6 @@ Parameters of tested machine:
 
 ## Software used in project
 
-Chosen databases were running as Docker containers. Link for [Docker engine](https://docs.docker.com/engine/install/ubuntu/) to install on Linux OS.(You will need Docker engine and Docker compose)
+Chosen databases were running as Docker containers. Link for [Docker engine](https://docs.docker.com/engine/install/) to install on your OS.(You will need Docker engine and Docker compose)
 
 For importing data files into databases you will need code editor or IDE to run .py programs. Link for [VS Code](https://code.visualstudio.com/download).  
