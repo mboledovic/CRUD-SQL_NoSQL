@@ -5,7 +5,7 @@ Time comparison of CRUD queries (primary key & value) for chosen databases runni
 
 ## About Project
 
-Goal of project is to select proper database to store data from process controll aplications. In project i am comparing different SQL and NoSQL databases. Databases run locally in docker containers. CRUD testing of database is done by python programs.
+Goal of project is to select proper database to store data from process controll aplications. In project i am comparing different SQL and NoSQL databases. Databases run locally in docker containers. CRUD testing of database is done by python programs. Time of CRUD queries will vary with the number of records stored in table of each database. 
 
 
 ## How to generate data
